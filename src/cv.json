@@ -137,11 +137,27 @@
   "projects": [
     {
       "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
+      "isActive": true,
       "description": "Description...",
       "highlights": ["Won award at AIHacks 2016"],
-      "url": "https://project.com/"
+      "url": "https://project.com/",
+      "github": "https://github.com"
+    },
+    {
+      "name": "Project",
+      "isActive": false,
+      "description": "Description...",
+      "highlights": ["Won award at AIHacks 2016"],
+      "url": "https://project.com/",
+      "github": "https://github.com"
+    },
+    {
+      "name": "Project",
+      "isActive": true,
+      "description": "Description...",
+      "highlights": ["Won award at AIHacks 2016", "Este es otro highlight"],
+      "url": "https://project.com/",
+      "github": "https://github.com"
     }
   ]
 }
